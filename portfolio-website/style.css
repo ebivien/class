@@ -12,13 +12,58 @@ body {
     line-height: 1.6;
 }
 
+nav.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 header {
     padding: 2rem 0;
 }
 
+header a {
+    color: #fff;
+}
+
 .profile-pic {
-    border: 2px solid black;
+    border: 4px solid #fff;
     border-radius: 50%;
     width: 17rem;
     height: 17rem;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.bg-primary {
+    background-color: #5363F5 !important;
+}
+
+header p {
+    line-height: 1;
+}
+
+header p:first-child {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+header .job-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.space {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #5363F5;
+    padding: 0.2rem 0.4rem;
+}
+
+.intro {
+    font-size: 1.5rem;
 }
