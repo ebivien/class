@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+
+<style>
+    body {
+        margin-bottom: 100%;
+  
+
+   
+    }
+
+    .header {
+        flex-direction: row;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    .middle-section {
+        background-color: lightpink;
+        width: 300px;
+        flex: 1;
+        margin-right: 35px;
+        margin-left: 50px;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .search-bar {
+
+        flex: 1;
+        height: 34px;
+        padding-left: 10px;
+        font-size: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(221, 220, 220);
+        border-radius: 2px;
+        box-shadow: inset 1px 2px 5px rgb(0, 0, 0 0, 0.05);
+    }
+
+    .search-bar::placeholder {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+
+    .search-button {
+        height: inherit;
+        width: 20px;
+    }
+
+    .search-icon {
+        margin-top: 4px;
+        height: 25px;
+
+    }
+
+    .left-section {
+        background-color: lightblue;
+        width: 150px;
+
+        align-items: center;
+
+    }
+
+    .hambuger-menu {
+        height: 20px;
+    }
+
+    .youtube-logo {
+        height: 20px;
+    }
+
+    .right-section {
+        background-color: lightblue;
+        width: 200px;
+
+    }
+    
+</style>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hambuger-menu" src="" alt="">
+            <img class="youtube-logo" src="" alt="">
+        </div>
+        <div class="middle-section">
+            <input type="text" placeholder="search">
+            <button class="search-button">
+                <img class="search-icon" src="" alt="">
+            </button>
+            <button class="voive-search-button">
+                <img src="" alt="">
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="" src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
