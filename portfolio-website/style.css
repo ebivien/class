@@ -52,6 +52,50 @@ header .job-title {
     font-weight: bold;
 }
 
+/* 1. Ensure the overall graphic is centered within the column */
+#about-exp {
+    /* Aligns the inline-block children (number-container and p) to the center */
+    text-align: center;
+    /* Optional: Sets a clean default font */
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Styling the number and circle container */
+.number-container {
+    /* Establishes the reference point for absolute positioning of the circle */
+    position: relative;
+    /* Ensures the container respects its content size and centers within the text-align: center parent */
+    display: inline-block;
+    /* Space below the number section */
+    margin-bottom: 10px;
+}
+
+.blue-circle {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #5363F5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.number-text {
+    color: #fff;
+    font-size: 8rem;
+    text-shadow: 2px 2px 2px rgb(100, 100, 100);
+    position: relative;
+    z-index: 2;
+    line-height: 1;
+}
+
+.experience-text {
+    color: #000;
+    font-size: 1.5rem;
+}
+
 .space {
     padding-top: 5rem;
     padding-bottom: 5rem;
