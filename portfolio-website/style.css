@@ -67,3 +67,8 @@ header .job-title {
 .intro {
     font-size: 1.5rem;
 }
+
+.icons i {
+    color: #5363F5;
+    font-size: 3rem;
+}
