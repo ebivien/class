@@ -109,3 +109,18 @@ header .job-title {
     color: #5363F5;
     font-size: 3rem;
 }
+
+#resume .box {
+    padding: 0 1rem;
+    border-left: 2px solid #5363F5;
+}
+
+#resume .item {
+    border-bottom: 0.5px solid lightgray;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.item h6 {
+    font-weight: 300;
+}
