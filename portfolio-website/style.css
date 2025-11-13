@@ -111,3 +111,8 @@ header .job-title {
     color: #5363F5;
     font-size: 3rem;
 }
+
+nav i {
+    color: green;
+
+}
